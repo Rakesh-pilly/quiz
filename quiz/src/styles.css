@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+}
+
+* {
+  margin: 0;
+}
+.App {
+  background: #f5f7fb;
+  width: 100vw;
+  height: 100vh;
+}
+
+.EnteryMian {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.startButton {
+  background: #4d5b9e;
+  border-radius: 15px;
+  padding: 1em;
+  font-size: 1rem;
+  color: #ffff;
+  border: none;
+  margin: 0 auto;
+  display: block;
+}
+
+.startButton:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+.header-question {
+  text-align: center;
+}
+
+.testMain {
+  padding: 1rem 2rem;
+}
+
+.ques {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #293264;
+  margin-bottom: 0.5rem;
+}
+
+.que-div {
+  margin: 1em auto;
+}
+
+.ans {
+  border: 0.794239px solid #4d5b9e;
+  box-sizing: border-box;
+  border-radius: 7.94239px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.24px;
+  line-height: 12px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #293264;
+
+  padding: 0.5em;
+
+  margin-right: 1em;
+}
+
+.select {
+  background: #d6dbf5;
+}
